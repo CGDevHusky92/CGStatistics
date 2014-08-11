@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35CF49C196EED6400520A02 /* CGTestMatrix1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF49B196EE94500520A02 /* CGTestMatrix1 */; };
+		D35CF49E196EF28400520A02 /* CGTestMatrix2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF49D196EF24800520A02 /* CGTestMatrix2 */; };
+		D35CF4A0196EF5E800520A02 /* CGTestMatrix3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF49F196EF56200520A02 /* CGTestMatrix3 */; };
+		D35CF4A2196EFB5900520A02 /* CGString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CF4A1196EFB5900520A02 /* CGString.swift */; };
+		D35CF4A4196F02EE00520A02 /* CGTestStatistics1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4A3196F02B800520A02 /* CGTestStatistics1 */; };
+		D35CF4A6196F043F00520A02 /* CGTestStatistics2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4A5196F042E00520A02 /* CGTestStatistics2 */; };
+		D35CF4B3196F3D0200520A02 /* CGTestMatrixAdd1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4A7196F3C4D00520A02 /* CGTestMatrixAdd1 */; };
+		D35CF4B4196F3D0200520A02 /* CGTestMatrixAdd2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4A8196F3C6600520A02 /* CGTestMatrixAdd2 */; };
+		D35CF4B5196F3D0200520A02 /* CGTestMatrixAddFinal in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4A9196F3CE700520A02 /* CGTestMatrixAddFinal */; };
+		D35CF4B6196F3D0200520A02 /* CGTestMatrixSub1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4B0196F3CE700520A02 /* CGTestMatrixSub1 */; };
+		D35CF4B7196F3D0200520A02 /* CGTestMatrixSub2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4B1196F3CE700520A02 /* CGTestMatrixSub2 */; };
+		D35CF4B8196F3D0200520A02 /* CGTestMatrixSubFinal in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4B2196F3CE700520A02 /* CGTestMatrixSubFinal */; };
+		D35CF4B9196F3D0200520A02 /* CGTestMatrixMultT1-1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4AD196F3CE700520A02 /* CGTestMatrixMultT1-1 */; };
+		D35CF4BA196F3D0200520A02 /* CGTestMatrixMultT1-2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4AE196F3CE700520A02 /* CGTestMatrixMultT1-2 */; };
+		D35CF4BB196F3D0200520A02 /* CGTestMatrixMultT1-Final in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4AF196F3CE700520A02 /* CGTestMatrixMultT1-Final */; };
+		D35CF4BC196F3D0200520A02 /* CGTestMatrixDivT1-1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4AA196F3CE700520A02 /* CGTestMatrixDivT1-1 */; };
+		D35CF4BD196F3D0200520A02 /* CGTestMatrixDivT1-2 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4AB196F3CE700520A02 /* CGTestMatrixDivT1-2 */; };
+		D35CF4BE196F3D0200520A02 /* CGTestMatrixDivT1-Final in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35CF4AC196F3CE700520A02 /* CGTestMatrixDivT1-Final */; };
+		D36D349C19633CC300F5E13D /* CGStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D349B19633CC300F5E13D /* CGStatistics.swift */; };
+		D36D349F19636ADC00F5E13D /* CGMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D349E19636ADC00F5E13D /* CGMatrix.swift */; };
+		D3754646199110CE00215880 /* CGPhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3754645199110CE00215880 /* CGPhysics.swift */; };
+		D37546481991129800215880 /* CGChemistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37546471991129800215880 /* CGChemistry.swift */; };
+		D375464A199112A800215880 /* CGUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3754649199112A800215880 /* CGUnits.swift */; };
+		D3906C4F196328B100841186 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3906C4E196328B100841186 /* main.swift */; };
+		D3D6D8B619900DA500797244 /* CGMathTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D6D8B519900DA500797244 /* CGMathTest.swift */; };
+		D3D6D8CB1990113D00797244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D6D8CA1990113D00797244 /* AppDelegate.swift */; };
+		D3D6D8CD1990113D00797244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D6D8CC1990113D00797244 /* ViewController.swift */; };
+		D3D6D8D01990113D00797244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D6D8CE1990113D00797244 /* Main.storyboard */; };
+		D3D6D8D21990113D00797244 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D6D8D11990113D00797244 /* Images.xcassets */; };
+		D3D6D8DE1990113D00797244 /* CGStatisticsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D6D8DD1990113D00797244 /* CGStatisticsTestTests.swift */; };
+		D3D6D8F01990116E00797244 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D6D8EF1990116E00797244 /* UIKit.framework */; };
+		D3D6D8F31990117B00797244 /* CGStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D6D8BE199010F400797244 /* CGStatisticsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3D6D8BA1990101400797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3906C4A196328B100841186;
+			remoteInfo = CGMathTester;
+		};
+		D3D6D8BC1990103A00797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3906C4A196328B100841186;
+			remoteInfo = CGMathTester;
+		};
+		D3D6D8C01990111B00797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3906C4A196328B100841186;
+			remoteInfo = CGMathTester;
+		};
+		D3D6D8D81990113D00797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D6D8C51990113D00797244;
+			remoteInfo = CGStatisticsTest;
+		};
+		D3D6D8E51990113D00797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3906C4A196328B100841186;
+			remoteInfo = CGMathTester;
+		};
+		D3D6D8E71990113E00797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D6D8C51990113D00797244;
+			remoteInfo = CGStatisticsTest;
+		};
+		D3D6D8E91990113E00797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D6D8C51990113D00797244;
+			remoteInfo = CGStatisticsTest;
+		};
+		D3D6D8EB1990115C00797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D6D8C51990113D00797244;
+			remoteInfo = CGStatisticsTest;
+		};
+		D3D6D8ED1990116200797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3906C4A196328B100841186;
+			remoteInfo = CGMathTester;
+		};
+		D3D6D8F11990117200797244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3906C43196328B100841186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3906C4A196328B100841186;
+			remoteInfo = CGMathTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3906C49196328B100841186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				D35CF4B3196F3D0200520A02 /* CGTestMatrixAdd1 in CopyFiles */,
+				D35CF4B4196F3D0200520A02 /* CGTestMatrixAdd2 in CopyFiles */,
+				D35CF4B5196F3D0200520A02 /* CGTestMatrixAddFinal in CopyFiles */,
+				D35CF4B6196F3D0200520A02 /* CGTestMatrixSub1 in CopyFiles */,
+				D35CF4B7196F3D0200520A02 /* CGTestMatrixSub2 in CopyFiles */,
+				D35CF4B8196F3D0200520A02 /* CGTestMatrixSubFinal in CopyFiles */,
+				D35CF4B9196F3D0200520A02 /* CGTestMatrixMultT1-1 in CopyFiles */,
+				D35CF4BA196F3D0200520A02 /* CGTestMatrixMultT1-2 in CopyFiles */,
+				D35CF4BB196F3D0200520A02 /* CGTestMatrixMultT1-Final in CopyFiles */,
+				D35CF4BC196F3D0200520A02 /* CGTestMatrixDivT1-1 in CopyFiles */,
+				D35CF4BD196F3D0200520A02 /* CGTestMatrixDivT1-2 in CopyFiles */,
+				D35CF4BE196F3D0200520A02 /* CGTestMatrixDivT1-Final in CopyFiles */,
+				D35CF4A6196F043F00520A02 /* CGTestStatistics2 in CopyFiles */,
+				D35CF4A4196F02EE00520A02 /* CGTestStatistics1 in CopyFiles */,
+				D35CF4A0196EF5E800520A02 /* CGTestMatrix3 in CopyFiles */,
+				D35CF49E196EF28400520A02 /* CGTestMatrix2 in CopyFiles */,
+				D35CF49C196EED6400520A02 /* CGTestMatrix1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D32312A71963326F003013C3 /* CGMathOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CGMathOSX.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CGMathTester-awgszmdqyautbhcmmmgbktavplvx/Build/Products/Debug/CGMathOSX.framework"; sourceTree = "<group>"; };
+		D35CF49B196EE94500520A02 /* CGTestMatrix1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CGTestMatrix1; sourceTree = "<group>"; };
+		D35CF49D196EF24800520A02 /* CGTestMatrix2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CGTestMatrix2; sourceTree = "<group>"; };
+		D35CF49F196EF56200520A02 /* CGTestMatrix3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CGTestMatrix3; sourceTree = "<group>"; };
+		D35CF4A1196EFB5900520A02 /* CGString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGString.swift; sourceTree = "<group>"; };
+		D35CF4A3196F02B800520A02 /* CGTestStatistics1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CGTestStatistics1; sourceTree = "<group>"; };
+		D35CF4A5196F042E00520A02 /* CGTestStatistics2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CGTestStatistics2; sourceTree = "<group>"; };
+		D35CF4A7196F3C4D00520A02 /* CGTestMatrixAdd1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CGTestMatrixAdd1; sourceTree = "<group>"; };
+		D35CF4A8196F3C6600520A02 /* CGTestMatrixAdd2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CGTestMatrixAdd2; sourceTree = "<group>"; };
+		D35CF4A9196F3CE700520A02 /* CGTestMatrixAddFinal */ = {isa = PBXFileReference; lastKnownFileType = text; path = CGTestMatrixAddFinal; sourceTree = "<group>"; };
+		D35CF4AA196F3CE700520A02 /* CGTestMatrixDivT1-1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CGTestMatrixDivT1-1"; sourceTree = "<group>"; };
+		D35CF4AB196F3CE700520A02 /* CGTestMatrixDivT1-2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CGTestMatrixDivT1-2"; sourceTree = "<group>"; };
+		D35CF4AC196F3CE700520A02 /* CGTestMatrixDivT1-Final */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CGTestMatrixDivT1-Final"; sourceTree = "<group>"; };
+		D35CF4AD196F3CE700520A02 /* CGTestMatrixMultT1-1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CGTestMatrixMultT1-1"; sourceTree = "<group>"; };
+		D35CF4AE196F3CE700520A02 /* CGTestMatrixMultT1-2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CGTestMatrixMultT1-2"; sourceTree = "<group>"; };
+		D35CF4AF196F3CE700520A02 /* CGTestMatrixMultT1-Final */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CGTestMatrixMultT1-Final"; sourceTree = "<group>"; };
+		D35CF4B0196F3CE700520A02 /* CGTestMatrixSub1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = CGTestMatrixSub1; sourceTree = "<group>"; };
+		D35CF4B1196F3CE700520A02 /* CGTestMatrixSub2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = CGTestMatrixSub2; sourceTree = "<group>"; };
+		D35CF4B2196F3CE700520A02 /* CGTestMatrixSubFinal */ = {isa = PBXFileReference; lastKnownFileType = text; path = CGTestMatrixSubFinal; sourceTree = "<group>"; };
+		D36D349B19633CC300F5E13D /* CGStatistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGStatistics.swift; sourceTree = "<group>"; };
+		D36D349E19636ADC00F5E13D /* CGMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMatrix.swift; sourceTree = "<group>"; };
+		D3754645199110CE00215880 /* CGPhysics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPhysics.swift; sourceTree = "<group>"; };
+		D37546471991129800215880 /* CGChemistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGChemistry.swift; sourceTree = "<group>"; };
+		D3754649199112A800215880 /* CGUnits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGUnits.swift; sourceTree = "<group>"; };
+		D3906C4B196328B100841186 /* CGMathTester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CGMathTester; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3906C4E196328B100841186 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D3D6D8B119900DA500797244 /* CGMathTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGMathTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D6D8B419900DA500797244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D6D8B519900DA500797244 /* CGMathTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMathTest.swift; sourceTree = "<group>"; };
+		D3D6D8BE199010F400797244 /* CGStatisticsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGStatisticsView.swift; sourceTree = "<group>"; };
+		D3D6D8C61990113D00797244 /* CGStatisticsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGStatisticsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D6D8C91990113D00797244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D6D8CA1990113D00797244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3D6D8CC1990113D00797244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3D6D8CF1990113D00797244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3D6D8D11990113D00797244 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3D6D8D71990113D00797244 /* CGStatisticsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGStatisticsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D6D8DC1990113D00797244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D6D8DD1990113D00797244 /* CGStatisticsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGStatisticsTestTests.swift; sourceTree = "<group>"; };
+		D3D6D8EF1990116E00797244 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3906C48196328B100841186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D6D8AE19900DA500797244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D6D8C31990113D00797244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D6D8F01990116E00797244 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D6D8D41990113D00797244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3906C42196328B100841186 = {
+			isa = PBXGroup;
+			children = (
+				D3906C4D196328B100841186 /* CGMathTester */,
+				D3D6D8B219900DA500797244 /* CGMathTest */,
+				D3D6D8C71990113D00797244 /* CGStatisticsTest */,
+				D3D6D8DA1990113D00797244 /* CGStatisticsTestTests */,
+				D3906C4C196328B100841186 /* Products */,
+				D3906C57196328C400841186 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3906C4C196328B100841186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3906C4B196328B100841186 /* CGMathTester */,
+				D3D6D8B119900DA500797244 /* CGMathTest.xctest */,
+				D3D6D8C61990113D00797244 /* CGStatisticsTest.app */,
+				D3D6D8D71990113D00797244 /* CGStatisticsTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3906C4D196328B100841186 /* CGMathTester */ = {
+			isa = PBXGroup;
+			children = (
+				D3906C4E196328B100841186 /* main.swift */,
+				D36D349E19636ADC00F5E13D /* CGMatrix.swift */,
+				D36D349B19633CC300F5E13D /* CGStatistics.swift */,
+				D3D6D8BE199010F400797244 /* CGStatisticsView.swift */,
+				D35CF4A1196EFB5900520A02 /* CGString.swift */,
+				D3754645199110CE00215880 /* CGPhysics.swift */,
+				D37546471991129800215880 /* CGChemistry.swift */,
+				D3754649199112A800215880 /* CGUnits.swift */,
+				D35CF49B196EE94500520A02 /* CGTestMatrix1 */,
+				D35CF49D196EF24800520A02 /* CGTestMatrix2 */,
+				D35CF49F196EF56200520A02 /* CGTestMatrix3 */,
+				D35CF4A7196F3C4D00520A02 /* CGTestMatrixAdd1 */,
+				D35CF4A8196F3C6600520A02 /* CGTestMatrixAdd2 */,
+				D35CF4A9196F3CE700520A02 /* CGTestMatrixAddFinal */,
+				D35CF4B0196F3CE700520A02 /* CGTestMatrixSub1 */,
+				D35CF4B1196F3CE700520A02 /* CGTestMatrixSub2 */,
+				D35CF4B2196F3CE700520A02 /* CGTestMatrixSubFinal */,
+				D35CF4AD196F3CE700520A02 /* CGTestMatrixMultT1-1 */,
+				D35CF4AE196F3CE700520A02 /* CGTestMatrixMultT1-2 */,
+				D35CF4AF196F3CE700520A02 /* CGTestMatrixMultT1-Final */,
+				D35CF4AA196F3CE700520A02 /* CGTestMatrixDivT1-1 */,
+				D35CF4AB196F3CE700520A02 /* CGTestMatrixDivT1-2 */,
+				D35CF4AC196F3CE700520A02 /* CGTestMatrixDivT1-Final */,
+				D35CF4A3196F02B800520A02 /* CGTestStatistics1 */,
+				D35CF4A5196F042E00520A02 /* CGTestStatistics2 */,
+			);
+			path = CGMathTester;
+			sourceTree = "<group>";
+		};
+		D3906C57196328C400841186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3D6D8EF1990116E00797244 /* UIKit.framework */,
+				D32312A71963326F003013C3 /* CGMathOSX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D6D8B219900DA500797244 /* CGMathTest */ = {
+			isa = PBXGroup;
+			children = (
+				D3D6D8B519900DA500797244 /* CGMathTest.swift */,
+				D3D6D8B319900DA500797244 /* Supporting Files */,
+			);
+			path = CGMathTest;
+			sourceTree = "<group>";
+		};
+		D3D6D8B319900DA500797244 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3D6D8B419900DA500797244 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3D6D8C71990113D00797244 /* CGStatisticsTest */ = {
+			isa = PBXGroup;
+			children = (
+				D3D6D8CA1990113D00797244 /* AppDelegate.swift */,
+				D3D6D8CC1990113D00797244 /* ViewController.swift */,
+				D3D6D8CE1990113D00797244 /* Main.storyboard */,
+				D3D6D8D11990113D00797244 /* Images.xcassets */,
+				D3D6D8C81990113D00797244 /* Supporting Files */,
+			);
+			path = CGStatisticsTest;
+			sourceTree = "<group>";
+		};
+		D3D6D8C81990113D00797244 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3D6D8C91990113D00797244 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3D6D8DA1990113D00797244 /* CGStatisticsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D6D8DD1990113D00797244 /* CGStatisticsTestTests.swift */,
+				D3D6D8DB1990113D00797244 /* Supporting Files */,
+			);
+			path = CGStatisticsTestTests;
+			sourceTree = "<group>";
+		};
+		D3D6D8DB1990113D00797244 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3D6D8DC1990113D00797244 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3906C4A196328B100841186 /* CGMathTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3906C52196328B100841186 /* Build configuration list for PBXNativeTarget "CGMathTester" */;
+			buildPhases = (
+				D3906C47196328B100841186 /* Sources */,
+				D3906C48196328B100841186 /* Frameworks */,
+				D3906C49196328B100841186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGMathTester;
+			productName = CGMathTester;
+			productReference = D3906C4B196328B100841186 /* CGMathTester */;
+			productType = "com.apple.product-type.tool";
+		};
+		D3D6D8B019900DA500797244 /* CGMathTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D6D8B719900DA500797244 /* Build configuration list for PBXNativeTarget "CGMathTest" */;
+			buildPhases = (
+				D3D6D8AD19900DA500797244 /* Sources */,
+				D3D6D8AE19900DA500797244 /* Frameworks */,
+				D3D6D8AF19900DA500797244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D6D8BB1990101400797244 /* PBXTargetDependency */,
+				D3D6D8BD1990103A00797244 /* PBXTargetDependency */,
+				D3D6D8C11990111B00797244 /* PBXTargetDependency */,
+				D3D6D8E61990113D00797244 /* PBXTargetDependency */,
+				D3D6D8EE1990116200797244 /* PBXTargetDependency */,
+				D3D6D8F21990117200797244 /* PBXTargetDependency */,
+			);
+			name = CGMathTest;
+			productName = CGMathTest;
+			productReference = D3D6D8B119900DA500797244 /* CGMathTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3D6D8C51990113D00797244 /* CGStatisticsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D6D8DF1990113D00797244 /* Build configuration list for PBXNativeTarget "CGStatisticsTest" */;
+			buildPhases = (
+				D3D6D8C21990113D00797244 /* Sources */,
+				D3D6D8C31990113D00797244 /* Frameworks */,
+				D3D6D8C41990113D00797244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGStatisticsTest;
+			productName = CGStatisticsTest;
+			productReference = D3D6D8C61990113D00797244 /* CGStatisticsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3D6D8D61990113D00797244 /* CGStatisticsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D6D8E21990113D00797244 /* Build configuration list for PBXNativeTarget "CGStatisticsTestTests" */;
+			buildPhases = (
+				D3D6D8D31990113D00797244 /* Sources */,
+				D3D6D8D41990113D00797244 /* Frameworks */,
+				D3D6D8D51990113D00797244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D6D8D91990113D00797244 /* PBXTargetDependency */,
+				D3D6D8E81990113E00797244 /* PBXTargetDependency */,
+				D3D6D8EA1990113E00797244 /* PBXTargetDependency */,
+				D3D6D8EC1990115C00797244 /* PBXTargetDependency */,
+			);
+			name = CGStatisticsTestTests;
+			productName = CGStatisticsTestTests;
+			productReference = D3D6D8D71990113D00797244 /* CGStatisticsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3906C43196328B100841186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Revision Works, LLC";
+				TargetAttributes = {
+					D3906C4A196328B100841186 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D3D6D8B019900DA500797244 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D3906C4A196328B100841186;
+					};
+					D3D6D8C51990113D00797244 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D3D6D8D61990113D00797244 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D3D6D8C51990113D00797244;
+					};
+				};
+			};
+			buildConfigurationList = D3906C46196328B100841186 /* Build configuration list for PBXProject "CGMathTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3906C42196328B100841186;
+			productRefGroup = D3906C4C196328B100841186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3906C4A196328B100841186 /* CGMathTester */,
+				D3D6D8B019900DA500797244 /* CGMathTest */,
+				D3D6D8C51990113D00797244 /* CGStatisticsTest */,
+				D3D6D8D61990113D00797244 /* CGStatisticsTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D6D8AF19900DA500797244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D6D8C41990113D00797244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D6D8D01990113D00797244 /* Main.storyboard in Resources */,
+				D3D6D8D21990113D00797244 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D6D8D51990113D00797244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3906C47196328B100841186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D349F19636ADC00F5E13D /* CGMatrix.swift in Sources */,
+				D3754646199110CE00215880 /* CGPhysics.swift in Sources */,
+				D37546481991129800215880 /* CGChemistry.swift in Sources */,
+				D36D349C19633CC300F5E13D /* CGStatistics.swift in Sources */,
+				D35CF4A2196EFB5900520A02 /* CGString.swift in Sources */,
+				D3906C4F196328B100841186 /* main.swift in Sources */,
+				D375464A199112A800215880 /* CGUnits.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D6D8AD19900DA500797244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D6D8B619900DA500797244 /* CGMathTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D6D8C21990113D00797244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D6D8CD1990113D00797244 /* ViewController.swift in Sources */,
+				D3D6D8CB1990113D00797244 /* AppDelegate.swift in Sources */,
+				D3D6D8F31990117B00797244 /* CGStatisticsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D6D8D31990113D00797244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D6D8DE1990113D00797244 /* CGStatisticsTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3D6D8BB1990101400797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3906C4A196328B100841186 /* CGMathTester */;
+			targetProxy = D3D6D8BA1990101400797244 /* PBXContainerItemProxy */;
+		};
+		D3D6D8BD1990103A00797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3906C4A196328B100841186 /* CGMathTester */;
+			targetProxy = D3D6D8BC1990103A00797244 /* PBXContainerItemProxy */;
+		};
+		D3D6D8C11990111B00797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3906C4A196328B100841186 /* CGMathTester */;
+			targetProxy = D3D6D8C01990111B00797244 /* PBXContainerItemProxy */;
+		};
+		D3D6D8D91990113D00797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D6D8C51990113D00797244 /* CGStatisticsTest */;
+			targetProxy = D3D6D8D81990113D00797244 /* PBXContainerItemProxy */;
+		};
+		D3D6D8E61990113D00797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3906C4A196328B100841186 /* CGMathTester */;
+			targetProxy = D3D6D8E51990113D00797244 /* PBXContainerItemProxy */;
+		};
+		D3D6D8E81990113E00797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D6D8C51990113D00797244 /* CGStatisticsTest */;
+			targetProxy = D3D6D8E71990113E00797244 /* PBXContainerItemProxy */;
+		};
+		D3D6D8EA1990113E00797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D6D8C51990113D00797244 /* CGStatisticsTest */;
+			targetProxy = D3D6D8E91990113E00797244 /* PBXContainerItemProxy */;
+		};
+		D3D6D8EC1990115C00797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D6D8C51990113D00797244 /* CGStatisticsTest */;
+			targetProxy = D3D6D8EB1990115C00797244 /* PBXContainerItemProxy */;
+		};
+		D3D6D8EE1990116200797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3906C4A196328B100841186 /* CGMathTester */;
+			targetProxy = D3D6D8ED1990116200797244 /* PBXContainerItemProxy */;
+		};
+		D3D6D8F21990117200797244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3906C4A196328B100841186 /* CGMathTester */;
+			targetProxy = D3D6D8F11990117200797244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3D6D8CE1990113D00797244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D6D8CF1990113D00797244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3906C50196328B100841186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3906C51196328B100841186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3906C53196328B100841186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tkl0313/Desktop/ChaseProjects/CGMathTester/CGMath/build/Debug,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/CGMathTester-awgszmdqyautbhcmmmgbktavplvx/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3906C54196328B100841186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tkl0313/Desktop/ChaseProjects/CGMathTester/CGMath/build/Debug,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/CGMathTester-awgszmdqyautbhcmmmgbktavplvx/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3D6D8B819900DA500797244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CGMathTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3D6D8B919900DA500797244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CGMathTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3D6D8E01990113D00797244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CGStatisticsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D6D8E11990113D00797244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CGStatisticsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D6D8E31990113D00797244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CGStatisticsTest.app/CGStatisticsTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CGStatisticsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		D3D6D8E41990113D00797244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CGStatisticsTest.app/CGStatisticsTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CGStatisticsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3906C46196328B100841186 /* Build configuration list for PBXProject "CGMathTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3906C50196328B100841186 /* Debug */,
+				D3906C51196328B100841186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3906C52196328B100841186 /* Build configuration list for PBXNativeTarget "CGMathTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3906C53196328B100841186 /* Debug */,
+				D3906C54196328B100841186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D6D8B719900DA500797244 /* Build configuration list for PBXNativeTarget "CGMathTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D6D8B819900DA500797244 /* Debug */,
+				D3D6D8B919900DA500797244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D6D8DF1990113D00797244 /* Build configuration list for PBXNativeTarget "CGStatisticsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D6D8E01990113D00797244 /* Debug */,
+				D3D6D8E11990113D00797244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D6D8E21990113D00797244 /* Build configuration list for PBXNativeTarget "CGStatisticsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D6D8E31990113D00797244 /* Debug */,
+				D3D6D8E41990113D00797244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3906C43196328B100841186 /* Project object */;
+}
